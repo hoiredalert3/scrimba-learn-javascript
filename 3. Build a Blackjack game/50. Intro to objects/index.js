@@ -2,16 +2,22 @@
 // key-value pairs
 
 let course = {
-    title: "Learn CSS Grid for free",
-    lessons: 16,
-    creator: "Per Harald Borgen",
-    length: 63,
-    level: 2,
-    isFree: true,
-    tags: ["html", "css"]
-}
+  title: "Learn CSS Grid for free",
+  lessons: 16,
+  creator: "Per Harald Borgen",
+  length: 63,
+  level: 2,
+  isFree: true,
+  tags: ["html", "css"],
+};
 
+console.log(course.length);
 
-console.log( course.tags )
+let PhucHoi = {
+  name: "Ngo Phuc Hoi",
+  age: 21,
+  school: "HCMUS",
+  profession: "Web Developer",
+};
 
-
+console.log(PhucHoi.name);
